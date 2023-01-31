@@ -5,8 +5,10 @@ export default function FaqComponent() {
   return (
     <div className="flex items-center justify-center h-screen">
       <div className="bg-white">
-        <div className="container flex flex-col justify-center px-4 py-8 mx-auto md:p-8">
-          <h2 className="text-2xl font-semibold">Frequently Asked Questions</h2>
+        <div className="container flex flex-col justify-center px-4 mx-auto md:p-8">
+          <h2 className="text-2xl font-semibold text-purple-600">
+            Frequently Asked Questions
+          </h2>
           <p className="mt-4 mb-8 text-gray-600"></p>
           <div className="space-y-4">
             <details className="w-full rounded-lg ring-1 ring-purple-600">

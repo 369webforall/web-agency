@@ -9,7 +9,7 @@ import {
 import { FaRegAddressCard } from 'react-icons/fa';
 const Footer = () => {
   return (
-    <footer className="px-4 pt-12 pb-8 text-white w-full bg-gray-800 shadow border-gray-200">
+    <footer className="px-4 mt-16 pt-12 pb-8 text-white w-full bg-gray-800 shadow border-gray-200">
       <div className="container flex flex-col justify-between items-start max-w-6xl px-4 mx-auto overflow-hidden lg:flex-row">
         <div className="w-full pl-12 mr-4 text-left lg:w-1/2 sm:text-center sm:pl-0 lg:text-left">
           <div className="flex flex-col justify-start items-start px-3 font-bold tracking-wide text-gray-800  md:justify-center ">
@@ -27,13 +27,13 @@ const Footer = () => {
               webcoding29@gmail.com{' '}
             </p>
             <p className=" py-1 text-white no-underline hover:text-gray-600 flex items-center gap-4 font-thin">
-              <FaRegAddressCard /> 29553 Bienenbüttel, Steddorfer str.4, Germany
+              <FaRegAddressCard /> 29553 Bienenbüttel, Germany
             </p>
           </div>
         </div>
         <div className="block w-full pl-10 mt-6 text-sm lg:w-3/4 sm:flex lg:mt-0">
           <ul className="flex flex-col w-full p-0 font-medium text-left text-white list-none">
-            <li className="inline-block  px-3 py-2 mt-5 font-bold tracking-wide text-white uppercase md:mt-0">
+            <li className="inline-block  px-3 py-2 mt-5 font-semibold tracking-wide text-white uppercase md:mt-0">
               Company
             </li>
             <li>
@@ -55,7 +55,7 @@ const Footer = () => {
           </ul>
 
           <div className="flex flex-col w-full text-white">
-            <div className="inline-block px-3 py-2 mt-5 font-bold text-white uppercase md:mt-0">
+            <div className="inline-block px-3 py-2 mt-5 font-semibold text-white uppercase md:mt-0">
               Follow Us
             </div>
             <div className="flex justify-start pl-4 mt-2">

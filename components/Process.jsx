@@ -7,7 +7,7 @@ const Process = () => {
       des: 'Reach out to us to start the process. Discuss all your requirements and idea. In our mitual understanding we can move to next step',
     },
     {
-      title: 'We create the first draft for you',
+      title: 'First draft for you',
       des: 'Once we know all the requirements from you,  our designer can create first draft of your site. We will support you at any time to fulfull your requirements.',
     },
     {
@@ -22,12 +22,12 @@ const Process = () => {
   return (
     <section className="bg-gray-800 py-4 md:mt-10 mb-10">
       <div className="mx-10 md:w-3/4 md:mx-auto lg:w-1/2 items-center py-10">
-        <p className="text-2xl text-purple-500 text-center font-medium">
+        <h2 className="text-2xl text-purple-500 text-center font-medium">
           Here how it works
-        </p>
-        <p className="text-lg font-semibold text-center py-3 text-white">
+        </h2>
+        <h3 className="text-lg font-semibold text-center py-3 text-white">
           We have very easy process for our clients.
-        </p>
+        </h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 lg:gap-16 pt-10">
           {service.map((ser, i) => {
             return (
@@ -36,9 +36,9 @@ const Process = () => {
                 key={i}
               >
                 <div className="flex gap-3 items-center">
-                  <p className="text-purple-700 text-2xl group-hover:text-white font-semibold ">
+                  <h3 className="text-purple-700 text-2xl group-hover:text-white font-semibold ">
                     {ser.title}
-                  </p>
+                  </h3>
                 </div>
 
                 <p className="text-base group-hover:text-white pr-6 py-2">

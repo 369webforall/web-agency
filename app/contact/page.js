@@ -2,13 +2,13 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <section className="relative text-gray-600" id="contact">
+    <section className="relative text-gray-600 mt-20" id="contact">
       <div className="container flex justify-center px-5 py-12 mx-auto items-cener sm:flex-nowrap">
         <div className="flex flex-col w-full max-w-xl">
-          <h1 className="mb-1 text-3xl font-semibold text-center text-transparent bg-clip-text bg-gradient-to-t from-blue-500 to-purple-500">
+          <h2 className="mb-1 text-2xl font-semibold text-center  text-purple-600">
             Contact US
-          </h1>
-          <p className="mb-5 text-center text-gray-600">
+          </h2>
+          <p className="mb-5 text-center text-purple-900">
             Any questions or remarks ? Just write us a message !
           </p>
           <div className="relative mb-4">

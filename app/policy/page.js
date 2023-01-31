@@ -2,10 +2,10 @@ import React from 'react';
 
 const PrivacyPolicy = () => {
   return (
-    <div className="p-10 sm:container mx-auto text-lg">
-      <h1 className="text-3xl font-sans font-semibold text-center mb-6">
+    <div className="sm:container mx-auto text-lg mt-10">
+      <h2 className="text-3xl font-sans font-semibold text-center mb-10  text-violet-600">
         Privacy Policy for Web Coding Agency
-      </h1>
+      </h2>
 
       <p className="text-lg mb-4">
         At Web Coding Agency, accessible from http://www.webcoding.info/, one of

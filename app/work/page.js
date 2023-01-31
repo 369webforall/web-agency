@@ -34,10 +34,10 @@ const Work = () => {
     },
   ];
   return (
-    <div className="container mx-auto md:h-screen py-10">
-      <p className="text-lg text-purple-500  font-medium">
+    <div className="container mx-auto md:h-screen mt-20">
+      <h2 className="text-2xl text-purple-600  font-semibold">
         Explore Some of our projects
-      </p>
+      </h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-5 lg:gap-12 py-10">
         {service.map((ser, i) => {

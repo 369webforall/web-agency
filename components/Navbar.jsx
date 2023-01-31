@@ -1,5 +1,5 @@
 'use client';
-import Head from 'next/head';
+
 import Link from 'next/link';
 import Image from 'next/image';
 import { useState } from 'react';
@@ -8,11 +8,6 @@ function Navbar() {
   const [navbar, setNavbar] = useState(false);
   return (
     <header className="sticky top-0 w-full z-10">
-      <Head>
-        <title>web coding agency</title>
-        <meta name="description" content="web coding agency" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
       <nav className="w-full bg-gray-800 shadow">
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
@@ -21,9 +16,10 @@ function Navbar() {
                 <Image
                   src="/logo.png"
                   alt="web coding agency"
-                  width={30}
+                  width={50}
                   height={30}
                   priority
+                  className="w-auto h-auto"
                 />
                 <h1 className="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500 md:text-2xl hover:text-indigo-400">
                   Web Coding Agency
