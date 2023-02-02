@@ -3,9 +3,7 @@ import Script from 'next/script';
 export default function Head() {
   return (
     <>
-      <title>
-        Full-Service Web Coding Agency for Website Design & Development
-      </title>
+      <title>Web Coding Agency for SEO, Website Design & Development</title>
       <meta content="width=device-width, initial-scale=1" name="viewport" />
 
       <meta
@@ -24,6 +22,7 @@ export default function Head() {
       <link rel="canonical" href="https://www.webcoding.info/" />
 
       {/* <!-- Google tag (gtag.js) --> */}
+
       <Script
         async
         strategy="lazyOnload"
@@ -35,7 +34,7 @@ export default function Head() {
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-GS9P0E0TH9', {page_path: window.location.pathname,});
+  gtag('config', '${process.env.GOOGLE_ID}', {page_path: window.location.pathname,});
   
   `}
       </Script>

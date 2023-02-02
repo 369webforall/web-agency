@@ -159,8 +159,9 @@ const Price = () => {
               </div>
               <div className="mt-6 rounded-lg">
                 <a
-                  href="#"
+                  href="https://calendly.com/webcoding29"
                   className="w-full items-center block px-10 py-3.5 text-base font-medium text-center text-indigo-500 transition duration-500 ease-in-out transform border-2 border-white shadow-2xl rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 bg-white"
+                  target="_blank"
                 >
                   call us
                 </a>
@@ -291,8 +292,9 @@ const Price = () => {
               </div>
               <div className="z-50 mt-6 rounded-lg">
                 <a
-                  href="/"
+                  href="https://calendly.com/webcoding29"
                   className="w-full items-center block px-10 py-3.5 text-base font-medium text-center text-indigo-500 transition duration-500 ease-in-out transform border-2 border-indigo-50 shadow-2xl rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 bg-white"
+                  target="_blank"
                 >
                   call us
                 </a>
@@ -408,8 +410,9 @@ const Price = () => {
               </div>
               <div className="mt-6 rounded-lg">
                 <a
-                  href="#"
+                  href="https://calendly.com/webcoding29"
                   className="w-full items-center block px-10 py-3.5 text-base font-medium text-center text-indigo-500 transition duration-500 ease-in-out transform border-2 border-white shadow-2xl rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 bg-white"
+                  target="_blank"
                 >
                   call us
                 </a>

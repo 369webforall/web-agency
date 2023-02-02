@@ -34,8 +34,8 @@ const Work = () => {
     },
   ];
   return (
-    <div className="container mx-auto md:h-screen mt-20">
-      <h2 className="text-2xl text-purple-600  font-semibold">
+    <div className="container mx-auto md:h-screen mt-20 p-4">
+      <h2 className="text-xl text-purple-600  font-semibold text-center md:text-4xl">
         Explore Some of our projects
       </h2>
 
@@ -49,7 +49,7 @@ const Work = () => {
               <img className="w-full" src={ser.img} alt="services" />
 
               <div className="flex justify-between items-center">
-                <p className="text-2xl group-hover:text-white font-semibold line-clamp-1">
+                <p className="text-lg mt-4 group-hover:text-white font-semibold line-clamp-1 md:text-2xl">
                   {ser.title}
                 </p>
               </div>

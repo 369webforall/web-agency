@@ -47,9 +47,9 @@ const Services = () => {
                     <AiOutlineMobile className="w-6 h-6 text-white" />
                   </div>
                   <div className="flex-1 ml-6 border-0 border-gray-200">
-                    <h3 className="m-0 text-lg font-semibold text-purple-600 border-solid sm:text-xl md:text-2xl">
+                    <h4 className="m-0 text-lg font-semibold text-purple-600 border-solid sm:text-xl md:text-2xl">
                       Responsive design
-                    </h3>
+                    </h4>
                     <p className="mt-2 text-base leading-normal text-gray-900 border-solid ">
                       We offer responsive design services, which ensure that a
                       website looks and functions properly on different devices

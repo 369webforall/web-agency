@@ -7,12 +7,12 @@ const Hero = () => {
     <div className="w-full h-[400px] md:h-[100vh] m-auto relative  opacity-90">
       <Image src="/wc-bg2.jpg" alt="hero image" fill priority />
 
-      <div className="absolute top-32 p-4 md:top-72 left-5 lg:left-20 xl:top-1/2 xl:left-48">
+      <div className="absolute top-32 p-4 md:top-64 left-5 lg:left-20 xl:top-96 xl:left-48">
         <div>
           <div className="max-w-xl text-center sm:text-left">
             <h2 className="text-3xl  text-violet-900  sm:text-5xl font-semibold">
               Innovative solutions
-              <strong className="block text-violet-900 font-semibold md:text-violet-400 text-xl">
+              <strong className="block text-black font-semibold md:text-violet-400 text-xl">
                 for your online presence
               </strong>
             </h2>

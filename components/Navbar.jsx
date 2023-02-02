@@ -82,7 +82,9 @@ function Navbar() {
                 <li className="text-white">
                   <Link href="/work">Our Works</Link>
                 </li>
-
+                <li className="text-white">
+                  <Link href="/structure">Our Offer</Link>
+                </li>
                 <li className="text-white">
                   <Link href="/contact">Contact US</Link>
                 </li>
