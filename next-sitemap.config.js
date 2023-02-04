@@ -13,5 +13,4 @@ module.exports = {
   robotsTxtOptions: {
     policies: [policy],
   },
-  outDir: './out',
 };
